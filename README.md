@@ -27,7 +27,6 @@ The repository includes the Python source code, application icon and scripts for
 
 ## ✨ Features
 
-- Modern custom branding.
 - Python source code.
 - Installation and launch script.
 - Build script with custom application icon.
