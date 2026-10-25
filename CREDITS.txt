@@ -1,0 +1,8 @@
+CREDITS
+NexClick Control Studio
+
+Creator / Project maintainer: TheKingRetro
+GitHub: https://github.com/TheKingRetro
+Repository: https://github.com/TheKingRetro/NexClick_Control_Studio_v4.0
+
+See the LICENSE file for the applicable project license terms.
