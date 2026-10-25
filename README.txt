@@ -1,27 +1,86 @@
-NEXCLICK CONTROL STUDIO v4.0
-=============================
+# NexClick Control Studio
 
-This version includes a redesigned dark interface and a custom NexClick icon.
+<p align="center">
+  <img src="nexclick_icon.png" alt="NexClick Control Studio logo" width="150">
+</p>
 
-Reliability improvements:
-- Snapshots click settings before the worker starts, instead of reading Tkinter controls from a background thread.
-- Debounces keyboard hotkeys so OS key-repeat does not repeatedly toggle Start/Stop.
-- Uses a stop event and a single worker completion path.
-- Validates timing, random offset, repeat count, and fixed coordinates before starting.
-- Handles worker exceptions and reports them in the UI.
-- Records and replays the actual recorded mouse button when supported.
+<h1 align="center">NexClick Control Studio</h1>
 
-Install and run:
-1. Extract the ZIP to a normal folder.
-2. Run INSTALL_AND_LAUNCH.bat.
-3. Use Hotkey settings and press a keyboard key or X1/X2.
+<p align="center">
+  A desktop mouse-control application for Windows.
+</p>
 
-Build a standalone EXE:
-1. Run BUILD_EXE_WITH_ICON.bat.
-2. The executable will be created in the dist folder with the NexClick icon.
+<p align="center">
+  <a href="https://github.com/TheKingRetro/NexClick_Control_Studio_v4.0/releases">
+    <img src="https://img.shields.io/badge/Download-Windows-7C3AED?style=for-the-badge&logo=windows&logoColor=white" alt="Windows downloads">
+  </a>
+  <a href="https://github.com/TheKingRetro/NexClick_Control_Studio_v4.0">
+    <img src="https://img.shields.io/badge/Platform-Windows-25233A?style=for-the-badge" alt="Windows platform">
+  </a>
+</p>
 
-Notes:
-- X1/X2 hotkey detection depends on the mouse driver and whether Windows exposes those side buttons to pynput.
-- Sending X1/X2 clicks is supported only if the installed pynput backend exposes those buttons.
-- Record & playback is a basic mouse-click recorder; it does not record keyboard input or pointer movement between clicks.
-- This project has been syntax-checked, but cannot be hardware-tested against your specific mouse from here.
+---
+
+## About
+
+**NexClick Control Studio** is a Windows desktop application focused on mouse-click automation and convenient controls through a dedicated interface.
+
+The project includes Python source code, application assets and scripts to help install or build the program.
+
+## Features
+
+- Custom NexClick visual identity.
+- Desktop application built with Python.
+- Installation and launch script.
+- Build script configured to use a custom application icon.
+- Source code available for inspection and development.
+
+## Download
+
+### Windows
+
+Visit the [Releases page](https://github.com/TheKingRetro/NexClick_Control_Studio_v4.0/releases) to see available versions.
+
+When a packaged executable is published, download it from the assets attached to the latest release.
+
+### Source code
+
+You can browse the source code directly in this repository or download the repository files using GitHub.
+
+## Run from source
+
+1. Download or clone this repository.
+2. Make sure Python is installed on your Windows computer.
+3. Review `README.txt` for the project's installation instructions.
+4. Run `INSTALL_AND_LAUNCH.bat` and follow the instructions.
+
+## Build the executable
+
+The repository includes `BUILD_EXE_WITH_ICON.bat` and `NexClick Control Studio.spec` to support the executable build process.
+
+Check the build instructions and ensure all dependencies are installed before compiling.
+
+## Troubleshooting
+
+If the application fails to launch:
+
+1. Follow the installation instructions in `README.txt`.
+2. Check that the required Python packages are installed.
+3. Read the error message carefully.
+4. If the problem persists, [open an issue](https://github.com/TheKingRetro/NexClick_Control_Studio_v4.0/issues) with the error details.
+
+## Contributing
+
+Suggestions, bug reports and improvements are welcome. Please describe proposed changes clearly when opening an issue or submitting a contribution.
+
+## License
+
+See the [`LICENSE`](LICENSE) file for the applicable license terms.
+
+---
+
+<p align="center">
+  <strong>NexClick Control Studio</strong><br>
+  <sub>Designed for simple, convenient mouse control.</sub><br><br>
+  Created by <a href="https://github.com/TheKingRetro">TheKingRetro</a>
+</p>
